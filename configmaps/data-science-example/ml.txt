@@ -1,0 +1,6 @@
+n_depth=3
+model=random_forest_model
+colsample_bytree=0.8
+subsample=0.8
+gini=0.8
+max_depth=3

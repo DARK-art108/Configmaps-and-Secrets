@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: gameconfig-2
+  namespace: default
+data:
+  game.properties: |
+    enemies=aliens
+    lives=3
+    enemies.cheat=True
+    enemies.cheat.level=noGoodRotten
+    secret.code.allowed=True
+    secret.code.lives=30
+  ui.properties: |
+    color.good=purple
+    color.bad=red
+    allow.textmode=True

@@ -1,0 +1,7 @@
+token=128
+truncate_token=<eos>
+max_source_length=512
+max_target_length=512
+n_heads=8
+model_dim=512
+model=bert
